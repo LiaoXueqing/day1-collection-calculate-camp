@@ -8,7 +8,6 @@ describe('choose_even', function() {
 
   it('从collection中选出偶数', function() {
     var result = choose_even(collection);
-
     expect(result).toEqual([0, 2, 4, 6]);
   })
 });
